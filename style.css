@@ -1,0 +1,60 @@
+:root {
+    --bs-primary: #3a506b;
+
+    --bs-secondary: #6db5a7;
+
+    --bs-light: #f0f4f8;
+
+    --bs-dark: #2e2e2e;
+
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: "DynaPuff", system-ui;
+
+}
+
+.navbar,
+footer {
+    background-color: var(--bs-primary);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link,
+footer p {
+    color: #f8f9fa !important;
+    /* Light text for navbar and footer */
+}
+
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+.text-white {
+    color: #f8f9fa !important;
+}
+
+.card {
+    background-color: var(--bs-light);
+    color: var(--bs-dark);
+}
+
+.btn-primary {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+}
+
+.btn-primary:hover {
+    background-color: #5aa897;
+    border-color: #5aa897;
+}
+
+.col-md-4 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.col-md-4:hover {
+    transform: scale(1.05);
+
+}
